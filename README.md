@@ -6,6 +6,12 @@ A starter kit for Arc builders who need a "platform attributes fees to many crea
 
 Submitted to the [Arc Open Source Showcase](https://arc-oss.thecanteenapp.com/).
 
+## Live demo
+
+[https://arc-attribution-kit.vercel.app](https://arc-attribution-kit.vercel.app)
+
+Two routes: `/admin` (operator credits creators against subject IDs) and `/dashboard` (creator enrolls a passkey + claims accrued USDC via paymaster-sponsored userOp).
+
 ## What you get
 
 - `contracts/AttributionEscrow.sol` — operator-attributed escrow with a configurable platform-fee bps and per-subject creator mapping.
